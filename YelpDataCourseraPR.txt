@@ -29,10 +29,10 @@ xi. user table =10,000
 
 2. Find the total number of distinct records for the primary keys in each of the tables listed below:
 
-i. Business = 5,779
-ii. Hours = none
-iii. Category = none
-iv. Attribute = none
+i. Business = 10,000
+ii. Hours = 1562
+iii. Category = 2643
+iv. Attribute = 1115
 v. Review = 7,854
 vi. Checkin = none 
 vii. Photo = 4,659
@@ -108,7 +108,7 @@ FROM
 | Scottsdale      |         497 |
 | Charlotte       |         468 |
 | Pittsburgh      |         353 |
-| MontrÈal        |         337 |
+| Montr√©al        |         337 |
 | Mesa            |         304 |
 | Henderson       |         274 |
 | Tempe           |         261 |
@@ -140,7 +140,7 @@ SELECT b.City, b.stars, count(b.stars)
 FROM business b
 GROUP BY b.City
 
-Copy and Paste the Resulting Table Below (2 columns ñ star rating and count):
+Copy and Paste the Resulting Table Below (2 columns ‚Äì star rating and count):
 
 +--------------+-------+----------------+
 | city         | stars | count(b.stars) |
@@ -180,7 +180,7 @@ SELECT b.City, b.stars, count(b.stars)
 FROM business b
 GROUP BY b.City
 
-Copy and Paste the Resulting Table Below (2 columns ñ star rating and count):
+Copy and Paste the Resulting Table Below (2 columns ‚Äì star rating and count):
 
 +--------------+-------+----------------+
 | city         | stars | count(b.stars) |
@@ -317,7 +317,7 @@ SELECT COUNT(*) FROM
 | Lissa     | -lh59ko3dxChBSZ9U7LfUw |  120 |
 	
 	
-11. Is there a strong relationship (or correlation) between having a high number of fans and being listed as "useful" or "funny?" Out of the top 10 users with the highest number of fans, what percent are also listed as ìusefulî or ìfunnyî?
+11. Is there a strong relationship (or correlation) between having a high number of fans and being listed as "useful" or "funny?" Out of the top 10 users with the highest number of fans, what percent are also listed as ‚Äúuseful‚Äù or ‚Äúfunny‚Äù?
 
 Key:
 0% - 25% - Low relationship
@@ -445,7 +445,7 @@ iii. Output of your finished dataset:
 | Dani's Hair Loft               | Kennedy Township  |     None |   5.0 |            3 |       1 |
 | Deli La Trattoria              | Kirkland          |     None |   5.0 |            8 |       1 |
 | Boulangerie De L'ile Bizard    | L'ile-Bizard      |     None |   5.0 |            3 |       1 |
-| Le Shack du PÍcheur            | La Prairie        |     None |   5.0 |            8 |       1 |
+| Le Shack du P√™cheur            | La Prairie        |     None |   5.0 |            8 |       1 |
 | Nikki's Collar Club            | Lyndhurst         |     None |   5.0 |            3 |       1 |
 +--------------------------------+-------------------+----------+-------+--------------+---------+
          
